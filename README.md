@@ -24,6 +24,8 @@ cd ai-thing
 npm install
 ```
 
+You will need to perform `npm install` for both the `client` and `server`.
+
 Create a `.env` file in the `server` directory of the project and add your MongoDB, Cloudinary, and OpenAI API
 credentials in the following format:
 
