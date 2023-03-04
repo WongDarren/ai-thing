@@ -12,7 +12,7 @@ Before running AI Thing with DALL-E, you need to ensure that the following requi
 - NPM (Node Package Manager) is installed on your system
 - A Cloudinary account is set up with API credentials
 - An OpenAI account is set up with API credentials
-- A MongoDB account is set up along with a project, database, and cluster
+- A MongoDB account is set up along with a project, cluster, and database
 
 ## Getting Started
 
