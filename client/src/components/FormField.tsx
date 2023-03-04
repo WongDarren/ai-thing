@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ChangeEventHandler, MouseEventHandler } from "react";
 
 interface FormFieldProps {
   labelName: string;
@@ -6,9 +6,9 @@ interface FormFieldProps {
   name: string;
   placeholder: string;
   value: string;
-  handleChange: any;
+  handleChange: ChangeEventHandler<HTMLInputElement>;
   isSurpriseMe?: boolean;
-  handleSurpriseMe?: any;
+  handleSurpriseMe?: MouseEventHandler<HTMLButtonElement>;
 }
 
 const FormField = ({
