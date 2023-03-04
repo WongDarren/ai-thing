@@ -15,7 +15,6 @@ interface PostProps {
 
 const RenderCards = ({ data, title }: RenderCardsProps) => {
   if (data?.length > 0) {
-    console.log(data);
     return data.map((post: PostProps) => <Card key={post._id} {...post} />);
   }
 
